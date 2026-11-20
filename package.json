@@ -1,0 +1,13 @@
+{
+  "name": "churn-early-warning",
+  "version": "0.1.0",
+  "description": "A retention team can contact some customers. Who should be on the list? A rule, a points checklist and two models compared on IBM's telecom churn sample.",
+  "private": true,
+  "scripts": {
+    "download": "sh scripts/0-download.sh",
+    "score": "cd work && python3 ../scripts/1-score.py",
+    "lists": "cd work && python3 ../scripts/2-lists.py",
+    "serve": "python3 -m http.server 8000"
+  },
+  "license": "MIT"
+}

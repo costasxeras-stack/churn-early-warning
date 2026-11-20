@@ -1,0 +1,24 @@
+Rule: month-to-month, newest first           5%: right 61% caught 11% rev 9%  10%: right 62% caught 23% rev 19%  20%: right 55% caught 42% rev 36%  30%: right 51% caught 58% rev 52%
+Points checklist (5 risk flags)              5%: right 78% caught 15% rev 16%  10%: right 72% caught 27% rev 29%  20%: right 65% caught 49% rev 52%  30%: right 57% caught 65% rev 66%
+Model (logistic regression)                  5%: right 81% caught 15% rev 18%  10%: right 76% caught 29% rev 32%  20%: right 68% caught 51% rev 55%  30%: right 59% caught 67% rev 71%
+Model (gradient boosting)                    5%: right 84% caught 16% rev 17%  10%: right 76% caught 29% rev 31%  20%: right 67% caught 50% rev 54%  30%: right 58% caught 65% rev 69%
+Model without gender, age or family fields   5%: right 81% caught 15% rev 18%  10%: right 75% caught 28% rev 31%  20%: right 67% caught 51% rev 55%  30%: right 59% caught 67% rev 71%
+value list 5%: leavers caught risk 15% vs value 14%, revenue 18% vs 18%, same people 58%, avg monthly 85 vs 96
+value list 10%: leavers caught risk 29% vs value 27%, revenue 32% vs 34%, same people 71%, avg monthly 82 vs 92
+value list 20%: leavers caught risk 51% vs value 49%, revenue 55% vs 58%, same people 86%, avg monthly 81 vs 88
+value list 30%: leavers caught risk 67% vs value 63%, revenue 71% vs 73%, same people 85%, avg monthly 78 vs 87
+expected leavers 1871 actual 1869
+  predicted 1% actual 1%
+  predicted 2% actual 2%
+  predicted 4% actual 4%
+  predicted 9% actual 10%
+  predicted 15% actual 15%
+  predicted 23% actual 23%
+  predicted 33% actual 32%
+  predicted 46% actual 41%
+  predicted 59% actual 59%
+  predicted 72% actual 76%
+leavers on the 20% list {'n': 952, 'tenure': 5.0, 'monthly': 83.32499999999999, 'm2m': 1.0} 
+leavers missed {'n': 917, 'tenure': 22.0, 'monthly': 70.4, 'm2m': 0.7666303162486369}
+points and model 20% lists share 82% of customers
+wrote data/results.json
