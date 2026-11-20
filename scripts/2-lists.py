@@ -6,7 +6,7 @@ import numpy as np, pandas as pd
 s = pd.read_csv("scores.csv"); n = len(s); L = s.left.sum()
 rev_all = (s.monthly * s.left).sum()
 NAMES = {"rule": "Rule: month-to-month, newest first", "points": "Points checklist (5 risk flags)",
-         "lr": "Model (logistic regression)", "gb": "Model (gradient boosting)", "lr_np": "Model without gender, age or family fields"}
+         "lr": "Model (logistic regression)", "gb": "Model (gradient boosting)", "lr_np": "Model without gender, senior or family fields"}
 CAP = [0.05, 0.10, 0.20, 0.30]
 
 def take(order, k):

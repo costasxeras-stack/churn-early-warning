@@ -1270,7 +1270,7 @@
   "points": "Points checklist (5 risk flags)",
   "lr": "Model (logistic regression)",
   "gb": "Model (gradient boosting)",
-  "lr_np": "Model without gender, age or family fields"
+  "lr_np": "Model without gender, senior or family fields"
  },
  "lists": {
   "rule": [
