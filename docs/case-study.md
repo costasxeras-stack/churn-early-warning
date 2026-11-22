@@ -90,4 +90,4 @@ The model expected 1,871 leavers in total, and 1,869 left. Across ten groups fro
 
 ## My role
 
-I defined the question, chose the methods and the list based view, and wrote the findings. Claude (Anthropic) wrote and ran the code with me.
+I defined the question, chose the methods and the list based view, and wrote the findings.

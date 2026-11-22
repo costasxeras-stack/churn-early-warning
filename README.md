@@ -47,9 +47,9 @@ The data is one snapshot. Who left and what they had were recorded at the same p
 
 [IBM Telco customer churn sample](https://github.com/IBM/telco-customer-churn-on-icp4d), from the telco-customer-churn-on-icp4d repository, Apache 2.0. 11 customers in their first month have a blank total charges field. They were set to 0 (nothing billed yet).
 
-## How it was built
+## My role
 
-I framed the question, chose the methods and the list based view, and wrote the findings. Claude (Anthropic) was my engineering partner for the code. Decisions are recorded in [docs/decisions](docs/decisions).
+I framed the question, chose the methods and the list based view, and wrote the findings. Decisions are recorded in [docs/decisions](docs/decisions).
 
 ## Run it yourself
 
